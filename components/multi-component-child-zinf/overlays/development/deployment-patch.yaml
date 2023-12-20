@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-component-child-zinf
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-iczz-tenant/build-suite-component-update-vdfi/multi-component-child-zinf@sha256:c3dea30cfa438d82221779f149a08b8512d54778968aa1bb4d72ea23fe7a8b6e
+        name: container-image
+        resources: {}
+status: {}
