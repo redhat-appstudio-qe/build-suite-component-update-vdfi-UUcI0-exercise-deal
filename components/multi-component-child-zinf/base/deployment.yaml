@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-child-zinf
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-iczz-tenant/build-suite-component-update-vdfi/multi-component-child-zinf@sha256:c3dea30cfa438d82221779f149a08b8512d54778968aa1bb4d72ea23fe7a8b6e
         imagePullPolicy: Always
         name: container-image
         ports:
